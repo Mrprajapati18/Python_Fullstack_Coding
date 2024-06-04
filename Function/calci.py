@@ -16,3 +16,7 @@ print("Mul = ",Mul);
 div = a/b;
 print(div);
 print("div = ",div);
+
+module = a%b;
+print(module);
+print("module = ",module);
