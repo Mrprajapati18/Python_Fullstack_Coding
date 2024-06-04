@@ -1,22 +1,31 @@
-a,b = 20,5;
 
-sum = a+b;
-print(sum);
-print("sum = ",sum);
-
-diff = a-b;
-print(diff);
-print("diff = ",diff);
+def add():
+    a = 20 
+    b = 5;
+    sum = a+b;
+    print(sum);
+    print("sum = ",sum);
 
 
-Mul = a*b;
-print(Mul);
-print("Mul = ",Mul);
+def sub (a,b):
+    diff = a-b;
+    print("Difference =",diff);
 
-div = a/b;
-print(div);
-print("div = ",div);
 
-module = a%b;
-print(module);
-print("module = ",module);
+
+def multiply(a,b):
+    prod = a*b;
+    return prod;
+
+def divide(a,b):
+    a,b = 20,3;
+    q = a/b;
+    return q;
+
+
+#add();
+# sub(2,5);
+# p = multiply(10,5);
+# print("product = ",p)
+q = divide();
+print("Quotient =",q);
