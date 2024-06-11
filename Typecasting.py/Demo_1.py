@@ -9,3 +9,5 @@ age_int = int(age_str);      # Typecasting
 
 print("User age :",age_int);
 print(type(age_int));
+
+
